@@ -64,14 +64,24 @@ header .shop-card {
     -moz-box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
     box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
     z-index: 1000;
+    padding: 16px;
+    padding-bottom: 0px;
     
 }
+
+header .shop-card .empty h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 header .shop-card .item {
     width: 100%;
+    float: left;
+    margin-bottom: 20px;
 }
 
 header .shop-card .item img {
-    width: 40%;
+    width: 70px;
     float: left;
     margin-right: 16px;
 }
@@ -86,7 +96,28 @@ header .shop-card .item b {
     font-weight: 600;
 }
 
+header .shop-card .item .delete-icon {
+    color: rgb(169, 50, 129);
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+    
+}
 
+header .shop-card .item .delete-icon:hover {
+    color: rgb(255, 41, 184); 
+    transform: scale(1.25);
+}
+
+header .shop-card .amount {
+    float: left;
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
 
 header .presentation {
     margin: 48px 0;
