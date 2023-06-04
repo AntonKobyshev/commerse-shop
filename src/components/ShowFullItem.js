@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
 
-export class Item extends Component {
+export class ShowFullItem extends Component {
   render() {
     return (
-        <div className='item'>
-        <img alt='item-img' src={process.env.PUBLIC_URL + '/img/' + this.props.item.img} onClick={() => this.props.onShowItem(this.props.item) } />
+        <div className='full-item'>
+            <div>
+            <img alt='item-img' src={process.env.PUBLIC_URL + '/img/' + this.props.item.img} onClick={() => this.props.onShowItem(this.props.item) } />
             <h2>{this.props.item.title}</h2>
             <p>{this.props.item.desc}</p>
             <b>{this.props.item.price}$</b>
             <div className='add-to-card' onClick={() => this.props.onAdd(this.props.item)}>+</div>
-        </div>
+            </div>
+      </div>
     )
   }
 }
 
-export default Item
+export default ShowFullItem

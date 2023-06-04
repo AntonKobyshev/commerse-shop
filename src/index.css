@@ -1,231 +1,258 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: rgb(182, 217, 255);
-    color: #222;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+  background: rgb(210, 227, 247);
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 .wrapper {
-    width: 1280px;
-    margin: 40px auto;
+  width: 1280px;
+  margin: 40px auto;
 }
 header {
-    position: relative;
+  position: relative;
 }
 
 header .logo {
-    font-weight: 700px;
-    font-size: 24px;
+  font-weight: 700px;
+  font-size: 24px;
 }
 
 header ul.nav {
-    float: right;
-    list-style: none;
+  float: right;
+  list-style: none;
 }
 
 header ul.nav li {
-    display: inline;
-    margin-left: 25px;
-    cursor: pointer;
-    transition: opacity 500ms ease;
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
 }
 
 header ul.nav li:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 header .shop-card-button {
-    float: right;
-    cursor: pointer;
-    transition: color, transform 500ms ease;
+  float: right;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
 }
 
 header .shop-card-button:hover,
 header .shop-card-button.active {
-    color: rgb(169, 50, 129);
+  color: rgb(169, 50, 129);
 
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 header .shop-card {
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    width: 450px;
-    background: rgb(175, 192, 245);
-    -webkit-box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
-    -moz-box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
-    box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
-    z-index: 1000;
-    padding: 16px;
-    padding-bottom: 0px;
-    
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  width: 450px;
+  background: rgb(175, 192, 245);
+  -webkit-box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
+  -moz-box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
+  box-shadow: 6px 5px 25px -5px rgba(82, 44, 82, 1);
+  z-index: 1000;
+  padding: 16px;
+  padding-bottom: 0px;
 }
 
 header .shop-card .empty h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 header .shop-card .item {
-    width: 100%;
-    float: left;
-    margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
 }
 
 header .shop-card .item img {
-    width: 70px;
-    float: left;
-    margin-right: 16px;
+  width: 70px;
+  float: left;
+  margin-right: 16px;
 }
 
-header .shop-card .item h2{
-    font-size: 20px;
-    margin-bottom: 16px;
+header .shop-card .item h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
 }
 
 header .shop-card .item b {
-    color: #747474;
-    font-weight: 600;
+  color: #747474;
+  font-weight: 600;
 }
 
 header .shop-card .item .delete-icon {
-    color: rgb(169, 50, 129);
-    float: right;
-    position: relative;
-    top: -25px;
-    cursor: pointer;
-    transition: color, transform 500ms ease;
-    
+  color: rgb(169, 50, 129);
+  float: right;
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
 }
 
 header .shop-card .item .delete-icon:hover {
-    color: rgb(255, 41, 184); 
-    transform: scale(1.25);
+  color: rgb(255, 41, 184);
+  transform: scale(1.25);
 }
 
 header .shop-card .amount {
-    float: left;
-    width: 100%;
-    font-weight: 700;
-    font-size: 24px;
-    margin-bottom: 16px;
+  float: left;
+  width: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 16px;
 }
 
 header .presentation {
-    margin: 48px 0;
-    background: url('./img/background.png') no-repeat;
-    width: 100%;
-    height: 480px;
-    background-size: cover;
-    background-position: center center;
-    background-blend-mode: multiply;
-    background-color: rgb(182, 217, 255);
+  margin: 48px 0;
+  background: url('./img/background.png') no-repeat;
+  width: 100%;
+  height: 480px;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: rgb(182, 217, 255);
 }
 
 header .title {
-    padding-top: 48px;
-    padding-left: 48px;
-    width: 360px;
-    font-size: 48px;
-    font-weight: 600;
-    color: white;
+  padding-top: 48px;
+  padding-left: 48px;
+  width: 360px;
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
 }
 
 header .info {
-    padding-top: 48px;
-    padding-left: 48px;
-    width: 360px;
-    font-size: 18px;
-    font-weight: 400;
-    color: white;
+  padding-top: 48px;
+  padding-left: 48px;
+  width: 360px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
 }
 
 .categories div {
-    display: inline-block;
-    background: #889aff;
-    border-radius: 50px;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-    margin-right: 15px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    transition: color 500ms ease;
-    transition: transform 100ms ease;    
+  display: inline-block;
+  background: #889aff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  margin-right: 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: color 500ms ease;
+  transition: transform 100ms ease;
 }
 
 .categories div:hover {
-    border-color: silver;
-    transform: scale(1.1);
+  border-color: silver;
+  transform: scale(1.1);
+}
+
+.full-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+    overflow: auto;
+}
+
+.full-item > div {
+    width: 600px;
+    position: relative;
+    margin: 10% auto;
+    padding: 40px 32px;
+    background: #e8e8e8;
+    border-radius: 9px;
+
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
 }
 
 main .item {
-    width: 30%;
-    margin-bottom: 48px;
-    background: #e8e8e8;
-    border-radius: 10px 10px 0 0;
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 24px;
-
+  width: 30%;
+  margin-bottom: 48px;
+  background: #e8e8e8;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 24px;
 }
 
-main .item img {
-    height: 450px;
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    transition: transform 500ms ease;
+main .item img,
+.full-item img {
+  height: 450px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  transition: transform 500ms ease;
+  cursor: pointer;
 }
 
-main .item img:hover {
-    transform: scale(1.05);
+main .item img:hover,
+.full-item img:hover{
+  transform: scale(1.05);
 }
 
-main h2, main p, main b {
-    margin: 10px 20px;
-    color: black;
+main h2,
+main p,
+main b,
+.full-item b,
+.full-item p,
+.full-item h2{
+  margin: 10px 20px;
+  color: black;
 }
 
-main b { 
-    color: rgb(31, 89, 70);
+main b,
+.full-item b {
+  color: rgb(31, 89, 70);
 }
-main .add-to-card {
-    position: absolute;
-    right: 24px;
-    bottom: 24px;
-    background: rgb(92, 119, 255);
-    width: 36px;
-    height: 36px;
-    text-align: center;
-    line-height: 36px;
-    color: white;
-    border-radius: 50%;
-    cursor: pointer;
-    font-weight: 700;
-    transition: transform 500ms ease;
-    }
+
+main .add-to-card,
+.full-item .add-to-card {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  background: rgb(92, 119, 255);
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 700;
+  transition: transform 500ms ease;
+}
 
 main .add-to-card:hover {
-
-    transform: scale(1.5) translatey(-5px);
-
+  transform: scale(1.5) translatey(-5px);
 }
 
 footer {
-    text-align: center;
-    margin-top: 48px;
+  text-align: center;
+  margin-top: 48px;
 }
