@@ -65,7 +65,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <Header />
+        <Header orders={this.state.orders} />
         <Items items={this.state.items} onAdd={this.addToOrder} />
         <Footer />
       </div>
@@ -73,8 +73,8 @@ class App extends React.Component {
   }
 
   addToOrder(item) {
-    this.setState({ orders: [...this.state.orders, item] },
-      () => { console.log(this.state.orders)})
+    this.setState({ orders: [...this.state.orders, item] }
+    )
   }
 }
 
