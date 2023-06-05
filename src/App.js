@@ -49,7 +49,7 @@ class App extends React.Component {
  {
           id: 5,
           title: 'Chair white',
-          img: 'Chair_white.jpg',
+          img: 'chair_white.jpg',
           desc: 'lorem ipsum dolor sit amet, consectur adipisicing.',
           category: 'chairs',
           price: '69.99'
@@ -57,7 +57,7 @@ class App extends React.Component {
  {
           id: 6,
           title: 'Wall light',
-          img: 'Wall_light.jpg',
+          img: 'wall_light.jpg',
           desc: 'lorem ipsum dolor sit amet, consectur adipisicing.',
           category: 'lights',
           price: '29.99'
