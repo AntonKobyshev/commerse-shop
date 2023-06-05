@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ecommerse-shop/static/css/main.1f501af0.css",
-    "main.js": "/ecommerse-shop/static/js/main.643ccee4.js",
+    "main.js": "/ecommerse-shop/static/js/main.68f1af2a.js",
     "static/media/background.png": "/ecommerse-shop/static/media/background.6b4102d003871dad99d2.png",
     "index.html": "/ecommerse-shop/index.html",
     "main.1f501af0.css.map": "/ecommerse-shop/static/css/main.1f501af0.css.map",
-    "main.643ccee4.js.map": "/ecommerse-shop/static/js/main.643ccee4.js.map"
+    "main.68f1af2a.js.map": "/ecommerse-shop/static/js/main.68f1af2a.js.map"
   },
   "entrypoints": [
     "static/css/main.1f501af0.css",
-    "static/js/main.643ccee4.js"
+    "static/js/main.68f1af2a.js"
   ]
 }
